@@ -1,41 +1,32 @@
 body{
-  text-align: center;
   background-color: white;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: Georgia, Times, “Times New Roman”, serif;
+  font-size:19px;
+  line-height: 29px;
+}
+header, footer{
+  font-weight: bold;
+  font-size: 23px;
+}
+footer{
+  font-size: 16px;
 }
 a{
   text-decoration: none;
-  font-weight: bold;
-  color: #1F3F2F;
+  color: #313131;
+  border-bottom: 1px dotted #666c6b;
 }
-a:hover{
-  color: #2F5F3F;
+  a:hover{
+    color: #313131;
+    border-bottom: 1px solid #666c6b;
+  }
+
+a#rss{
+  display: block;
+  float: right;
 }
-div#name{
-  font-size:42px;
-  margin-top:150px;
-  font-weight: bold;
-}
-div#tagline{
-  font-size:13px;
-  color: gray;
-  margin-top:5px;
-}
-div#sites{
-  font-size:12px;
-  margin-top:70px;
-  color: gray;
-}
-div#contact{
-  font-size:12px;
-  margin-top:20px;
-  color: gray;
-}
-span.suffix{
-  color: #3F3F3F;
-  font-weight: bold;
-  padding-right: 5px;
-}
-span.prefix{
-  color: gray;
+div#wrapper{
+  width: auto;
+  width-max: 760px;
+  margin: 20px 260px;
 }
