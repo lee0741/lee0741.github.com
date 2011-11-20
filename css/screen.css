@@ -30,3 +30,6 @@ div#wrapper{
   width-max: 760px;
   margin: 20px 260px;
 }
+div#post{
+  font-family:"Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", sans-serif;
+}
