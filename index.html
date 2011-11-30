@@ -6,70 +6,94 @@
     <meta name="author" content="Steven Lee" />
     <link rel="shortcut icon" href="images/favicon.ico" />
     <style type="text/css">
-      body{
-        text-align: center;
+      body {
         background-color: white;
-        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
       }
-      a{
-        text-decoration: none;
-        font-weight: bold;
-        color: #1F3F2F;
+
+      #left {
+        text-align: right;
+        float: left;
+        line-height: 1;
       }
-      a:hover{
-        color: #2F5F3F;
+
+      #right {
+        left: 50%;
+        text-align: left;
+        float: right;
       }
-      div#name{
-        font-size:42px;
-        margin-top:150px;
-        font-weight: bold;
+
+      .middle {
+        width: 50%;
+        font-size: 5em;
+        font-family: Georgia, Times, “Times New Roman”, serif;
       }
-      div#aka{
-        font-size:13px;
-        color: gray;
-        margin-top:5px;
+
+      p {
+        font-size: 20%;
+        margin-top: 40px;
+        margin-left: 3px;
+        margin-right: 3px;
       }
-      div#sites{
-        font-size:12px;
-        margin-top:70px;
-        color: gray;
+
+      ul {
+        font-size: 35%;
+        margin-top: 10px;
+        margin-left: 20px;
       }
-      div#contact{
-        font-size:12px;
-        margin-top:20px;
-        color: gray;
+
+      ul li {
+        margin: 10px;
       }
-      span.suffix{
-        color: #3F3F3F;
-        font-weight: bold;
-        padding-right: 5px;
+      .container {
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%;
+        position: fixed; 
+        display: table;
       }
-      span.prefix{
-        color: gray;
+
+      .center {
+        text-align:center; 
+        display: table-cell; 
+        vertical-align: middle;
+      }
+
+      a {
+      text-decoration: none;
+      color: inherit;
+      }
+
+      a:visited {
+      color: inherit;
+      }
+
+      a:hover {
+      color: #8b0000;
       }
     </style>
   </head>
   <body> 
-    <div id="name">
-      Steven Lee
-    </div>
-
-    <div id="aka">
-      <span class="prefix">aka</span> <span class="suffix">lee0741</span>
-    </div>
-
-    <div id="sites">
-      <strong>sites:</strong>
-      <a href="/blog">blog</a> &bull;
-      <a href="https://twitter.com/lee0741" target="_blank">twitter</a> &bull;
-      <a href="http://instagram.heroku.com/users/lee0741" target="_blank">instagram</a> &bull;  
-      <a href="http://last.fm/user/lee0741" target="_blank">lastfm</a> &bull;
-      <a href="http://www.douban.com/people/lee0741/" target="_blank">douban</a>     
-    </div>
-
-    <div id="contact">
-      <strong>contact:</strong>
-      <a href="mailto:lee0741@gmail.com">lee0741 at gmail dot com</a>
+    <div class="container">
+      <div class="center">
+        <div id="left" class="middle">
+          Steven<br />
+          Lee
+          <p>
+            aka lee0741
+          </p>
+        </div>
+        <div id="right" class="middle">
+          <ul>
+            <li><a href="/blog">blog</a></li>
+            <li><a href="https://twitter.com/lee0741">twitter</a></li>
+            <li><a href="http://instagram.heroku.com/users/lee0741">instagram</a></li>
+            <li><a href="http://last.fm/user/lee0741">lastfm</a></li>
+            <li><a href="http://www.douban.com/people/lee0741/">douban</a></li>
+            <li><a href="mailto:lee0741@gmail.com">contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
     <!-- Google Analytics -->
     <script type="text/javascript">
