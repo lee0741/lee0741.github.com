@@ -1,7 +1,7 @@
 body {
   background-color: white;
-  color: #474747;
-  font-family: "Helvetica Neue", Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  color: black;
+  font-family: "PT Serif", "Helvetica Neue", Helvetica, "Microsoft YaHei", Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
@@ -10,6 +10,7 @@ header {
   font-size: 23px;
 }
 footer {
+  color: #aaa;
   font-size: 13px;
 }
 a {
@@ -19,7 +20,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  font-weight: 900;
+  font-weight: bold;
   color: #8b0000;
 }
 a#rss {
@@ -29,10 +30,6 @@ a#rss {
 div#wrapper {
   width: 760px;
   margin: 20px auto;
-}
-.responsiveWrapper {
-  width: 90%;
-  margin: 5px auto;
 }
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
   body {
