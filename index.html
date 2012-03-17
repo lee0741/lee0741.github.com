@@ -1,99 +1,83 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Steven Lee</title>
-    <meta name="author" content="Steven Lee" />
-    <link rel="shortcut icon" href="images/favicon.ico" />
-    <style type="text/css">
-      body {
-        background-color: white;
-      }
-
-      #left {
-        text-align: right;
-        float: left;
-        line-height: 1;
-      }
-
-      #right {
-        left: 50%;
-        text-align: left;
-        float: right;
-      }
-
-      .middle {
-        width: 50%;
-        font-size: 5em;
-        font-family: Georgia, Times, “Times New Roman”, serif;
-      }
-
-      p {
-        font-size: 20%;
-        margin-top: 40px;
-        margin-left: 3px;
-        margin-right: 3px;
-      }
-
-      ul {
-        font-size: 35%;
-        margin-top: 10px;
-        margin-left: 20px;
-      }
-
-      ul li {
-        margin: 10px;
-      }
-      .container {
-        top: 0; 
-        left: 0; 
-        width: 100%; 
-        height: 100%;
-        position: fixed; 
-        display: table;
-      }
-
-      .center {
-        text-align:center; 
-        display: table-cell; 
-        vertical-align: middle;
-      }
-
-      a {
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Steven Lee</title>
+  <meta name="author" content="Steven Lee" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <style type="text/css">
+    body{
+      font-family: Georgia, Times, "Times New Roman", serif;
+      background-color: white;
+      font-size: 5em;
+    }
+    .container{
+      height: 100%;
+      width: 100%;
+      display: table;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+    .center{
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+    }
+    header, nav{
+      width: 50%;
+      float: left;
+    }
+    header{
+      text-align: right;
+      line-height: 1;
+    }
+    header p{
+      font-size: 20%;
+      margin: 40px 3px 0;
+    }
+    nav{
+      text-align: left;
+      font-size: 35%;
+    }
+    ul{
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+    ul li{
+      margin: 10px;
+    }
+    a{
       text-decoration: none;
-      color: inherit;
+      color: inherit; 
+    }
+      a:visited{
+        color: inherit;
       }
-
-      a:visited {
-      color: inherit;
+      a:hover{
+        color: #8b0000;
       }
-
-      a:hover {
-      color: #8b0000;
-      }
-    </style>
-  </head>
-  <body> 
+  </style>
+</head>
+<body>
     <div class="container">
-      <div class="center">
-        <div id="left" class="middle">
-          Steven<br />
-          Lee
-          <p>
-            aka lee0741
-          </p>
-        </div>
-        <div id="right" class="middle">
-          <ul>
-            <li><a href="/blog">blog</a></li>
-            <li><a href="https://twitter.com/lee0741">twitter</a></li>
-            <li><a href="http://copygr.am/lee0741/">instagram</a></li>
-            <li><a href="http://last.fm/user/lee0741">lastfm</a></li>
-            <li><a href="http://www.douban.com/people/lee0741/">douban</a></li>
-            <li><a href="mailto:lee0741@gmail.com">contact</a></li>
-          </ul>
-        </div>
-      </div>
+    <div class="center">
+    <header>
+      Steven<br />
+      Lee
+      <p>aka lee0741</p>  
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/blog">blog</a></li>
+        <li><a href="https://twitter.com/lee0741">twitter</a></li>
+        <li><a href="http://last.fm/user/lee0741">lastfm</a></li>
+        <li><a href="http://copygr.am/lee0741/">instagram</a></li>
+        <li><a href="http://www.douban.com/people/lee0741/">douban</a></li>
+        <li><a href="mailto:lee0741@gmail.com">contact</a></li>
+      </ul>
+    </nav>
+    </div>
     </div>
     <!-- Google Analytics -->
     <script type="text/javascript">
@@ -107,6 +91,9 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-  </body>
+</body>
 </html>
+
+
+
 
