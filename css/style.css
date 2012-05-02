@@ -68,12 +68,13 @@ ul.posts li{
   font-size: 21px;
   margin-bottom: 20px;
 }
-li.subposts a {
+li.subposts {
+  margin-left: 40px;
+  margin-top: 20px;
   font-family: "Helvetica Neue", Helvetica, "Microsoft YaHei", Arial, sans-serif;
 }
-li.subposts {
-    margin-left: 40px;
-    margin-top: 20px;
+li.subposts span {
+  color: #aaa;
 }
 
 code{
