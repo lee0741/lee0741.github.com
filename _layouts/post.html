@@ -11,19 +11,18 @@
   </head>
   <body>
     <div id="wrapper">
-    <header>
-      <span>{{ page.title }} « </span>
-      <a href="/blog/">blog</a>
-      <a href="http://feeds.feedburner.com/lee0741" id="rss" rel="alternate" type="application/rss+xml">rss</a>
-    </header>
-  
+    <div id="title">
+      <span>{{ page.title }}</span>
+      <a href="/blog/" id="previous">← Back</a>
+    </div>
+    
     <div id="post">
       {{ content }}
     </div>
   
     <footer>
       <p>
-        © 2012 Steven Lee. Powered by <a href="https://github.com/">github</a> & <a href="http://jekyllrb.com/">jekyll</a>.
+        © 2011-2012 Steven Lee. Powered by <a href="https://github.com/">github</a> & <a href="http://jekyllrb.com/">jekyll</a>.
       </p>
     </footer>
     </div>

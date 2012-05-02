@@ -1,65 +1,93 @@
-body {
+body{
   background-color: white;
   color: black;
-  font-family: "PT Serif", "Helvetica Neue", Helvetica, "Microsoft YaHei", Arial, sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 29px;
+  font-family: "Helvetica Neue", Helvetica, "Microsoft YaHei", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
 }
-header {
-  font-size: 23px;
+body.default{
+  font-family: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
-footer {
+
+div#title{
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 52px;
+  border-bottom: 3px solid gray;
+  padding-bottom: 16px;
+  margin-bottom: 28px;
+}
+a#previous{
+  display: block;
+  float: right;
+  font-size: 17px;
+}
+div#wrapper span{
+  margin-bottom: 30px;
+}
+
+footer{
   color: #aaa;
-  font-size: 13px;
+  font-size: 14px;
+  margin-top: 50px;
 }
-a {
+
+a{
   text-decoration: none;
   font-weight: bold;
   color: black;
 }
-a:hover {
+  a:hover{
+    text-decoration: none;
+    color: #8b0000;
+}
+.posts a{
   text-decoration: none;
   font-weight: bold;
   color: #8b0000;
 }
-a#rss {
-  display: block;
-  float: right;
+  .posts a:hover{
+    text-decoration: none;
+    color: black;
 }
-div#wrapper {
-  width: 760px;
-  margin: 20px auto;
+
+div#wrapper{
+  width: 640px;
+  margin: 50px auto;
 }
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-  body {
-    font-size: 13px;
-    line-height: 21px;
-  }
-  div#wrapper {
-    width: 90%;
-    margin: 5px auto;
-  }
-  header {
-    font-size: 18px;
-  }
-  footer {
-    font-size: 8px;
-  }
+body.default div#wrapper{
+  font-size: 26px;  
 }
-@media only screen and (min-width: 480px) and (max-width: 760px), only screen and (min-width: 480px) and (max-device-width: 760px) {
-  body {
-    font-size: 15px;
-    line-height: 25px;
-  }
-  div#wrapper {
-    width: 90%;
-    margin: 5px auto;
-  }
-  header {
-    font-size: 20px;
-  }
-  footer {
-    font-size: 10px;
-  }
+
+#post p{
+  margin-bottom: 21px;     
 }
+
+ul.posts li{
+  list-style-type: none;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+li.subposts a {
+  font-family: "Helvetica Neue", Helvetica, "Microsoft YaHei", Arial, sans-serif;
+}
+li.subposts {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+code{
+  font: 13px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  color: #52595D;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #CCC;
+  background-color: #F9F9F9;
+  padding: 0px 3px;
+  display: inline-block;
+}
+

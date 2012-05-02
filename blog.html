@@ -5,12 +5,28 @@ permalink: /blog/
 ---
 
 <div id="articles">
-  <ul class="posts">
-    {% for post in site.posts %}
+    <ul class="posts">
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> « 
-        <span>{{ post.date | date_to_string }}</span>
+      	<span>"Owner": </span>
+        <a href="/">Steven Lee,</a>
       </li>
-    {% endfor %}
+      <li>
+      	<span>"Subscription": </span>
+        <a href="http://feeds.feedburner.com/lee0741" type="application/rss+xml">RSS,</a>      
+      </li>
+      <li>
+      <details>
+        <summary>"Archives": {</summary>
+        <ul>
+          {% for post in site.posts %}
+            <li class="subposts">
+              <span>"{{ post.date | date_to_string }}": </span>
+              <a href="{{ post.url }}">{{ post.title }},</a>
+            </li>
+          {% endfor %}
+          <span>}</span> 
+        </ul>
+      </details>   
+      </li>  
   </ul>
 </div>  
