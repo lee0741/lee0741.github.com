@@ -6,24 +6,43 @@
     <meta name="author" content="Steven Lee" />
     <link rel="shortcut icon" href="/images/favicon.ico" />
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
-    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
     <link rel="alternate" type="application/atom+xml" title="lee0741" href="http://feeds.feedburner.com/lee0741" />  
   </head>
-  <body class="default">
-    <div id="wrapper">
-    <span>{</span>  
+   <body>
+    <header class="site-header">
+    	<div class="container">
+    		<a href="/" class="site-logo"><img src="/images/logo.png" alt="" width="50" height="50"/></a>
+    		<h1 class="site-h1">A Madman Sees What He Sees</h1>
+    		<nav class="site-nav">
+    			<ul>
+    				<li><a href="/">Home</a></li>
+    				<li><a href="/blog">Blog</a></li>
+    				<li><a href="http://feeds.feedburner.com/lee0741">RSS</a></li>
+    			</ul>
+    		</nav>
+    	</div>
+    </header>
+
+    <div class="site-content">
+    	<div class="container">
+    		<article class="archive">
+    			<h1>Archived Posts</h1>
     
-    {{ content }}
+                {{ content }}
+     
+           </article>  
+        </div>
+    </div>   
 
-    <span>}</span>  
-
-    <footer>
-      <p>
-        © 2011-2012 Steven Lee. Powered by <a href="https://github.com/">github</a> & <a href="http://jekyllrb.com/">jekyll</a>.
-      </p>
+    <footer class="site-footer">
+      <div class="container">
+      <small>
+        © 2011-2012 Steven Lee. Powered by <a href="https://github.com/">Github</a> & <a href="http://jekyllrb.com/">Jekyll</a>.
+      </small>
+      </div>
     </footer>
-    </div>
-    <!-- Google Analytics -->
+
+     <!-- Google Analytics -->
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-27160270-1']);
