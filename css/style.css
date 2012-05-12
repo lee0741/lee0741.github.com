@@ -3,8 +3,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 }
 
 html {
-    font-family: "Helvetica Neue", Helvetica, "Microsoft YaHei", Arial, sans-serif;
-	font-size: 16px;
+    font-family: "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", sans-serif;
+	font-size: 18px;
 	line-height: 26px;
 	color: black;
 	-webkit-text-size-adjust: 100%;
@@ -165,7 +165,7 @@ nav ul, nav ol {
 .container {
 	position:relative;
 	max-width:640px;
-	padding:0 40px;
+	padding:0 20px;
 	margin:0 auto;
 }
 
