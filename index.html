@@ -4,9 +4,13 @@
   <meta charset="utf-8" />
   <title>Steven Lee</title>
   <meta name="author" content="Steven Lee" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />  
   <link rel="shortcut icon" href="images/favicon.ico" />
   <script type="text/javascript" src="js/html5shiv.js"></script>
   <style type="text/css">
+    header, nav{
+      display: block;
+    }  
     body{
       font-family: Georgia, Times, "Times New Roman", serif;
       background-color: white;
@@ -34,19 +38,19 @@
       line-height: 1;
     }
     header p{
-      font-size: 20%;
-      margin: 40px 3px 0;
+      font-size: 25%;
+      margin: 2.5em 0.2em 0;
     }
     nav{
       text-align: left;
       font-size: 35%;
     }
     ul{
-      margin-top: 10px;
-      margin-left: 20px;
+      margin-top: 0;
+      margin-left: 1.2em;
     }
     ul li{
-      margin: 10px;
+      margin: 0.4em;
     }
     a{
       text-decoration: none;
@@ -57,6 +61,20 @@
       }
       a:hover{
         color: #8b0000;
+      }
+      @media screen and (max-device-width: 720px){
+          body{
+            font-size: 3em;
+          } 
+          nav{
+            font-size: 45%;
+          }
+          ul{
+            margin: 0;
+          }
+          ul li{
+            margin: 0.2em;
+          }
       }
   </style>
 </head>
