@@ -24,7 +24,7 @@ a:hover {
 
 .container {
 	position:relative;
-	max-width:720px;
+	max-width:680px;
 	padding:0 20px;
 	margin:0 auto;
 }
@@ -71,6 +71,10 @@ a:hover {
 .site-content {
 	margin-top:2em;
 	margin-bottom:3em;
+}
+
+.archive {
+    padding:0 0 0 10px;
 }
 
 .archive ul {
