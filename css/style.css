@@ -10,16 +10,41 @@ body {
 }
 
 a {
-    color:#000; 
+    color: #000; 
     text-decoration: none; 
     font-weight: bold;
     -webkit-transition: color 0.2s linear;
 }
 a:hover { 
-    color:#666; 
+    color: #666; 
     text-decoration: none; 
     font-weight: bold;
+    text-decoration: underline;
     -webkit-transition: color 0.2s lineddar; 
+}
+
+.post blockquote {
+    margin: 1em 2.5em; 
+}
+
+blockquote:before {
+    font-family: Monaco,Consolas,"Lucida Console",monospace;
+    content: "“";
+    font-size: 3em;
+    font-style: normal;
+    text-indent: -0.75em;
+    float: left;
+    opacity: 0.3;
+    line-height: 0.65;
+}
+
+code {
+    margin: 0 2px;
+    padding: 0 5px;
+    white-space: nowrap;
+    border: 1px solid #EAEAEA;
+    background-color: #F8F8F8;
+    border-radius: 3px;
 }
 
 .container {
@@ -79,6 +104,14 @@ a:hover {
 
 .archive ul {
     padding:0;
+}
+
+.archive ul li {
+    margin:0.3em 0;
+}
+
+.post__title {
+    line-height: 1.2em;
 }
 
 .site-footer {
