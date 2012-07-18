@@ -14,7 +14,7 @@ title: Readable Web Typography
 - Line Height
 - Line Width
 
-这三个要素结合在一起，就直接决定了你对页面排版的感觉。固定某两个要素而改变第三个，就能很直观的感受到变化。既然知道了页面排版主要由这三个要素负责，那么该如何处理这三者之间的关系呢？于是就有个 "Golden Ratio" ——是的，数学公式。令人高兴的是并不需要记住这个公式，因为作者已经做了一个计算 "Golden Ratio" 的[网页小应用](http://www.pearsonified.com/typography/)。如果熟悉 Sass ，Github 上还有一个专门为 "Golden Ratio" 写的 Compass [插件](https://github.com/maxbeatty/goldentype)。 
+这三个要素结合在一起，就直接决定了你对页面排版的感觉。固定某两个要素而改变第三个，就能很直观的感受到变化。既然知道了页面排版主要由这三个要素负责，那么该如何处理这三者之间的关系呢？于是就有了 "Golden Ratio" ——是的，数学公式。令人高兴的是并不需要记住这个公式，因为作者已经做了一个计算 "Golden Ratio" 的[网页小应用](http://www.pearsonified.com/typography/)。如果熟悉 Sass ，Github 上还有一个专门为 "Golden Ratio" 写的 Compass [插件](https://github.com/maxbeatty/goldentype)。 
 
 当然，以上这些也只能算得上启蒙。如果想了解更多，推荐以下链接：
 

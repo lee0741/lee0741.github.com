@@ -1,0 +1,188 @@
+/* --- RESET --- */
+
+html, body, div, span, header, nav, footer, section, aside, article, figure, hgroup, time, mark, h1, h2, h3, h4, p, blockquote, a, abbr, address, cite, del, em, img, ins, q, small, strong, sub, sup, samp, dl, dt, dd, ol, ul, li{
+    padding: 0; 
+    border: 0; 
+    margin: 0; 
+    font-size: 100%; 
+    vertical-align:baseline;
+    background:transparent;
+}
+
+header, nav, footer, section, hgroup{
+    display:block;
+}
+
+
+/* --- TYPOGRAPHY --- */
+
+body{
+    max-width:570px; 
+    padding:10px 25px; 
+    margin:0 auto;
+    font:100%/1 "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", sans-serif;
+    color:#444; 
+    background:#fff;
+}
+                                        
+/* Links */
+a:link, a:visited{
+    border-bottom:1px solid #c55500; 
+    color:#c55500; 
+    text-decoration:none;
+}
+a:visited{
+    border-bottom:1px solid #730800; 
+    color:#730800;
+}
+a:hover, a:focus, a:active{
+    border:0; 
+    color:#fff; 
+    background:#c55500;
+}
+a:visited:hover{
+    background:#730800;
+}
+
+/* Headings, paragraphs, quotes */
+h1, h2, h3, h4{
+    font-weight:normal; 
+    line-height:1.2em; 
+    color:#222;
+}
+p, blockquote{
+    margin:0.3em 0 1.4em; 
+    font-size:1em; 
+    line-height:1.4em;
+}
+blockquote{
+    padding:0 25px; 
+    border-left:3px solid #999; 
+    margin:1em 0 1.4em;
+}
+blockquote p{
+    font-family:calibri, arial, sans-serif;
+    font-size:1em; 
+    color:#666;
+}
+
+/* Lists */
+ul, ol{
+    margin:0.25em 0 1.4em;
+}
+ul{
+    list-style:none;
+}
+ul li, ol li{
+    padding:0;
+    margin:0 0 0.5em; 
+    font-size:1em; 
+    line-height:1.4em;
+}
+li li, li p{
+    font-size:1em;
+}
+
+/* Other */
+strong{
+    font-weight:bold;
+}
+em{
+    font-style:italic;
+}
+small{
+    font-size:0.875em;
+}
+
+
+/* --- TEMPLATE --- */
+
+/* HEADER */
+
+body > header{
+    padding-bottom:10px;
+}
+body > header hgroup{
+    padding-top:20px; 
+    margin-bottom:20px;
+    text-align:center;
+}
+body > header hgroup h1{
+    font-size:50px; 
+    line-height:1.1em;
+    word-spacing:0.15em;
+}
+body > header hgroup h2{
+    font-size:21px;
+}
+body > header dl{
+    line-height:1.2em; 
+    text-align:center;
+}
+body > header dt{
+    position:absolute; 
+    left:-9000px;
+}
+body > header dd{
+    margin:0.25em 0 0;
+}
+
+/* SECTIONS */
+
+body > section{
+    clear:both; 
+    padding:0 15px; 
+    margin:2em 0 3em;
+}
+body > section > h1{
+    padding:0 15px 0.25em; 
+    border-bottom:1px solid #ccc; 
+    margin:0 -15px 0.5em; 
+    font-size:24px;
+}
+
+section section{
+    margin:0;
+}
+section section h1{
+    font-size:18px; 
+    color:#6a8014;
+}
+section section h1 span{
+    font-style:italic;
+}
+section section h2{
+    display:inline; 
+    font-size:16px; 
+    color:#111;
+}
+section section h2:before{
+    content:"~ ";
+}
+section section hgroup, section section hgroup + p{
+    display:inline; 
+    margin:0;
+}
+section section hgroup + p:before{
+    content:"/ ";
+}
+section section ul{
+    list-style:square;
+}
+section section + section{
+    margin-top:1.5em;
+}
+
+.contact{
+    padding-top:1em; 
+    border-top:1px solid #ccc;
+}
+.contact ul li{
+    display:inline;
+}
+.contact ul li:before{
+    content:"\00b7  ";
+}
+.contact ul li:first-child:before{
+    content:"";
+}
