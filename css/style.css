@@ -1,7 +1,7 @@
 html {
     font-family: "ff-nuvo-web-pro-1", "ff-nuvo-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", sans-serif;
-	font-size: 18px;
-	line-height: 26px;
+	font-size: 17px;
+	line-height: 27px;
 	color: black;
 }
 
@@ -49,7 +49,7 @@ code {
 
 .container {
 	position:relative;
-	max-width:680px;
+	max-width:640px;
 	padding:0 20px;
 	margin:0 auto;
 }
