@@ -18,7 +18,7 @@ title: Readable Web Typography
 
 当然，以上这些也只能算得上启蒙。如果想了解更多，推荐以下链接：
 
-- [A Closer Look At Font Rendering](http://www.smashingmagazine.com/2012/04/24/a-closer-look-at-font-rendering/)
-- [New Site with Responsive Typography](http://informationarchitects.net/blog/responsive-typography/)
-- [The Art of Computer Typography](http://37signals.com/svn/posts/3183-the-art-of-computer-typography)
+- [More Meaningful Typography](http://www.alistapart.com/articles/more-meaningful-typography/)
+- [Sassy Modular Scale](http://thesassway.com/projects/modular-scale)
+- [R(a|ela)tional Design](http://blog.8thlight.com/billy-whited/2011/10/28/r-a-ela-tional-design.html)
 
