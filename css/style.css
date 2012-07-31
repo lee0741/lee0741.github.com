@@ -187,3 +187,12 @@ time {
     margin:0;
     font-size:0.875em;
 }
+
+.wf-loading {
+    visibility: hidden;
+}
+
+.wf-inactive {
+    visibility: hidden;
+}
+
