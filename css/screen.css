@@ -1,0 +1,88 @@
+@import url(bootstrap.min.css);
+
+.right {
+  float: right; }
+
+.wrapper {
+  margin: 0;
+  padding: 0; }
+
+.welcome {
+  background: black;
+  color: white;
+  padding: 4px 0; }
+  .welcome a {
+    color: white; }
+
+.logo {
+  border-bottom: 2px solid black; }
+  .logo img {
+    display: block;
+    margin: 15px auto; }
+  .logo ul {
+    list-style: none;
+    margin: 20px 15px; }
+    .logo ul li {
+      float: left;
+      width: 130px;
+      margin: 0 0 10px;
+      text-align: center;
+      font-weight: bold; }
+      .logo ul li a {
+        color: black; }
+
+.slide input {
+  width: auto; }
+.slide a {
+  color: gray; }
+.slide .span8 {
+  margin-top: 5px; }
+.slide .span4 {
+  background: black;
+  color: white;
+  height: 360px;
+  background: url("../images/bg.png") repeat; }
+.slide .log {
+  color: gray;
+  margin: 5px 30px; }
+.slide .center {
+  margin: 5px auto;
+  display: block; }
+
+.noty {
+  margin-bottom: 5px;
+  margin-top: 5px; }
+  .noty span {
+    background: #eee;
+    padding: 2px 12px; }
+
+.content {
+  margin-bottom: 20px; }
+
+.faq {
+  background: url("../images/bg.png") repeat;
+  border-top: 5px solid red;
+  color: gray;
+  margin-top: 10px;
+  padding-top: 10px; }
+  .faq a {
+    color: gray; }
+  .faq p {
+    font-size: 10px;
+    margin: 0; }
+  .faq h5 {
+    margin: 0;
+    padding: 0;
+    color: white; }
+    .faq h5 a {
+      color: white; }
+  .faq li {
+    font-size: 10px; }
+  .faq .pic {
+    margin-bottom: 10px; }
+  .faq .span2, .faq .span3 {
+    margin: 0 0 20px; }
+  .faq .time {
+    text-align: right;
+    margin: 1px 0 0;
+    border-bottom: 1px solid gray; }
