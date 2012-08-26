@@ -15,10 +15,11 @@ permalink: /qj-horizontal-flow/
 <script src="/js/game.js" type="text/javascript"></script>
 <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 <script type="text/javascript">
-    $(function(){
-        $("#page-wrap").wrapInner("<table><tr>");
-        $(".post").wrap("<td>");
-    });
+$(function(){
+$("#page-wrap").wrapInner(document.createElement("tr"));
+$("#page-wrap").wrapInner(document.createElement("table"));
+$(".post").wrap("<td>");
+});
 </script>
 <style type="text/css">
     * {
