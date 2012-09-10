@@ -1,0 +1,15 @@
+.aside ul li {
+    background-color: #666c6b;
+    border-bottom: 1px solid black;
+}
+.aside ul li:hover {
+    background-color: #313131;
+}
+
+.span9 .span3 {
+    background-color: #666c6b;
+}
+
+.span9 .span3:hover {
+    background-color: #313131;
+}
