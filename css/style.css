@@ -1,74 +1,73 @@
 html {
-  font-family: "Myriad Pro";
+  font-family: "Asul", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", sans-serif;
 	font-size: 17px;
 	line-height: 27px;
 	color: black;
 }
 
 body {
-    background: #fff;
+  background: #fff;
 }
 
 a {
-    color: #000; 
-    text-decoration: none; 
-    font-weight: bold;
-    -webkit-transition: color 0.2s linear;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-transition: color 0.2s linear;
 }
-a:hover { 
-    color: #666; 
-    text-decoration: none; 
-    font-weight: bold;
-    text-decoration: underline;
-    -webkit-transition: color 0.2s lineddar; 
+a:hover {
+  color: #666;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-transition: color 0.2s lineddar;
 }
 
 .post blockquote {
-    margin: 1em 2.5em; 
+  margin: 1em 2.5em;
 }
 
 blockquote:before {
-    font-family: Monaco,Consolas,"Lucida Console",monospace;
-    content: "“";
-    font-size: 3em;
-    font-style: normal;
-    text-indent: -0.75em;
-    float: left;
-    opacity: 0.3;
-    line-height: 0.65;
+  font-family: Monaco,Consolas,"Lucida Console",monospace;
+  content: "“";
+  font-size: 3em;
+  font-style: normal;
+  text-indent: -0.75em;
+  float: left;
+  opacity: 0.3;
+  line-height: 0.65;
 }
 
 pre {
-    width: 96%;
-    margin-bottom: 24px;
-    overflow: hidden;
-    padding: 3px 10px;
-    white-space: pre-wrap;
-    border: 1px solid #EAEAEA;
-    background-color: #F8F8F8;
-    border-radius: 3px;
-    font-family: Consolas, Monaco, Andale Mono, monospace;
+  width: 96%;
+  margin-bottom: 24px;
+  overflow: hidden;
+  padding: 3px 10px;
+  white-space: pre-wrap;
+  border: 1px solid #EAEAEA;
+  background-color: #F8F8F8;
+  border-radius: 3px;
+  font-family: Consolas, Monaco, Andale Mono, monospace;
 }
 pre code {
-    white-space: pre-wrap;
-    border: none;
-    padding: 0;
-    background-color: transparent;
-    border-radius: 0;
-    font-family: Consolas, Monaco, Andale Mono, monospace;
+  white-space: pre-wrap;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+  font-family: Consolas, Monaco, Andale Mono, monospace;
 }
 code {
-    margin: 0 2px;
-    padding: 0 5px;
-    white-space: nowrap;
-    border: 1px solid #EAEAEA;
-    background-color: #F8F8F8;
-    border-radius: 3px;
-    font-family: Consolas, Monaco, Andale Mono, monospace;
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #EAEAEA;
+  background-color: #F8F8F8;
+  border-radius: 3px;
+  font-family: Consolas, Monaco, Andale Mono, monospace;
 }
 
 .container {
-    position:relative;
+  position:relative;
 	max-width:640px;
 	padding:0 20px;
 	margin:0 auto;
@@ -82,16 +81,16 @@ code {
 
 .site-h1 {
 	font-size:14px;
-    font-weight:normal;
+  font-weight:normal;
 	font-style:italic;
 	vertical-align:middle;
-    margin:0;
+  margin:0;
 }
 
 .site-logo {
 	float:left;
 	border:0;
-	margin:0 25px 0 0;
+	margin:8px 20px 0 0;
 }
 
 .site-logo img {
@@ -119,19 +118,19 @@ code {
 }
 
 .archive {
-    padding:0 0 0 10px;
+  padding:0 0 0 10px;
 }
 
 .archive ul {
-    padding:0;
+  padding:0;
 }
 
 .archive ul li {
-    margin:0.3em 0;
+  margin:0.3em 0;
 }
 
 .post__title {
-    line-height: 1.2em;
+  line-height: 1.2em;
 }
 
 .site-footer {
@@ -182,10 +181,10 @@ time {
 }
 
 .post__timestamp {
-    padding-bottom:10px;
-    border-bottom:1px solid #DDD;
-    margin:0;
-    font-size:0.875em;
+  padding-bottom:10px;
+  border-bottom:1px solid #DDD;
+  margin:0;
+  font-size:0.875em;
 }
 
 .wf-loading {

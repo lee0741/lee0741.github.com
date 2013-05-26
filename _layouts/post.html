@@ -1,54 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=Asul:700' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }} « lee0741</title>
     <meta name="author" content="Steven Lee" />
-　　<meta name="viewport" content="width=device-width, initial-scale=1" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/images/favicon.ico" />
     <link rel="stylesheet" href="/css/normalize.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
     <link rel="alternate" type="application/atom+xml" title="lee0741" href="http://feeds.feedburner.com/lee0741" />
-    <!--[if IE]>
-        <script type="text/javascript" src="/js/html5shiv.js"></script>
-    <![endif]-->
   </head>
+
   <body>
-     <header class="site-header">
-    	<div class="container">
-    		<a href="/" class="site-logo"><img src="/images/logo.png" alt="" width="50" height="50"/></a>
-    		<h1 class="site-h1">A Madman Sees What He Sees</h1>
-    		<nav class="site-nav">
-    			<ul>
-    				<li><a href="/">Home</a></li>
-    				<li><a href="/blog">Blog</a></li>
-    				<li><a href="http://feeds.feedburner.com/lee0741">Feed</a></li>                    
-    			</ul>
-    		</nav>
-    	</div>
+    <header class="site-header">
+      <div class="container">
+        <a href="/" class="site-logo">
+          <svg width="42" height="42">
+            <line x1="9" y1="6" x2="9" y2="18" style="stroke-width: 6; stroke: black;" />
+            <line x1="21" y1="0" x2="21" y2="42" style="stroke-width: 6; stroke: black;" />
+            <line x1="33" y1="24" x2="33" y2="36" style="stroke-width: 6; stroke: black;" />
+            <line x1="6" y1="21" x2="36" y2="21" style="stroke-width: 6; stroke: black;" />
+          </svg>
+        </a>
+        <h1 class="site-h1">A Madman Sees What He Sees</h1>
+        <nav class="site-nav">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="http://feeds.feedburner.com/lee0741">Feed</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-  
+
     <div class="site-content">
-    	<div class="container">
-    		<article class="post post--single">
-    			<header class="post__header">
-    				<time class="post__timestamp">March 5, 2012</time>
-                    <h1 class="post__title">{{ page.title }}</h1>
-    			</header>
-                <div class="post__body">
-                    {{ content }}
-                </div>
-    		</article>
-    	</div>
-    </div>    
+      <div class="container">
+        <article class="post post--single">
+          <header class="post__header">
+            <time class="post__timestamp">{{page.date | date_to_string }}</time>
+            <h1 class="post__title">{{ page.title }}</h1>
+          </header>
+          <div class="post__body">
+            {{ content }}
+          </div>
+        </article>
+      </div>
+    </div>
 
     <footer class="site-footer">
       <div class="container">
       <small>
-        © 2011-2012 Steven Lee. Powered by <a href="https://github.com/">Github</a> & <a href="http://jekyllrb.com/">Jekyll</a>.
+        © 2011-2013 Steven Lee. Powered by <a href="https://github.com/">Github</a> & <a href="http://jekyllrb.com/">Jekyll</a>.
       </small>
       </div>
-    </footer> 
+    </footer>
 
     <!-- Google Analytics -->
     <script type="text/javascript">
