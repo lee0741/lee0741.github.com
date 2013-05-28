@@ -37,6 +37,17 @@ blockquote:before {
   line-height: 0.65;
 }
 
+blockquote:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+blockquote cite {
+  float: right;
+}
+
 pre {
   width: 96%;
   margin-bottom: 24px;
@@ -131,6 +142,10 @@ code {
 
 .post__title {
   line-height: 1.2em;
+}
+
+.post__body {
+  margin-top: 2.5em;
 }
 
 .site-footer {
