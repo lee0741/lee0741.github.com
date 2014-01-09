@@ -1,3 +1,23 @@
-name: Steven Lee 
-pygments: true
-permalink: /blog/:title/
+# Dependencies
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            "Steven Lee"
+tagline:          "YAWN"
+description:      "Not that fast, sort of linger over it."
+url:              http://lee0741.github.io
+
+author:
+  name:           "Steven Lee"
+  twitter:        https://twitter.com/lee0741
+  vsco:           http://lee0741.vsco.co
+  lastfm:         http://last.fm/user/lee0741
+  douban:         http://www.douban.com/people/lee0741
+  github:         https://github.com/lee0741
+  email:          lee0741@gmail.com
+
+paginate:         3
+
