@@ -18,6 +18,6 @@ R 入门看的是[《R in a Nutshell》](http://book.douban.com/subject/10438325
 再提 Coursera。这期间配合着看书，顺利的完成了 [Computing for Data Analysis](https://www.coursera.org/course/compdata)、[Data Analysis](https://www.coursera.org/course/dataanalysis) 和 [Machine Learning](https://www.coursera.org/course/ml) 这三门课程。不知道是因为这三门课我才看完了那些书，还是因为那些书我顺利完成了这三门课，总之，在这个 MOOCs 的时代，学习还是挺方便的。
 
 ### 总结
-其实这段学习历程中我也有过一段比较彷徨的时期：学习 PCA 原理的时候发现线性代数有必要重拾；学习 [ggplot2](http://ggplot2.org/) 的时候想深入了解下 [The Grammar of Graphics](http://book.douban.com/subject/10123863/)；学习 MapReduce 的时候觉得 Hadoop 值得深入研究；等等等等。简单来说，就是觉得要学的东西太多了，有些无从下手。幸运的是这期间读了一本名叫 [Analyzing the Analyzers](http://book.douban.com/subject/24807541/) 的书。现在回想起来，觉得真的很有必要。在这个把「Data Scientist」当「Rock Star」捧的时代，不弄清基本概念和需求，天真的把自己当作万金油，是真的很容易陷入到知识黑洞中。
+其实这段学习历程中我也有过一段比较彷徨的时期：学习 PCA 原理的时候发现线性代数有必要重拾；学习 [ggplot2](http://ggplot2.org/) 的时候想深入了解下 [The Grammar of Graphics](http://book.douban.com/subject/10123863/)；学习 MapReduce 的时候觉得 Hadoop 值得深入研究；等等等等。简单来说，就是觉得要学的东西太多了，有些无从下手。幸运的是这期间读了一本名叫 [《Analyzing the Analyzers》](http://book.douban.com/subject/24807541/) 的书。现在回想起来，觉得真的很有必要。在这个把「Data Scientist」当「Rock Star」捧的时代，不弄清基本概念和需求，天真的把自己当作万金油，是真的很容易陷入到知识黑洞中。
 
-所以说要有什么「经验之谈」的话，那就是在跳进这个大坑之前抽空把自己定位好。
+所以说要有什么「经验之谈」的话，那就是在跳进这个大坑之前赶紧抽空把自己定位好吧。
