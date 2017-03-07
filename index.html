@@ -1,36 +1,50 @@
----
-layout: default
----
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Yancen Li</title>
+		<meta name="author" content="Yancen Li" />
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="/css/main.css" />
+		<link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]--><script>document.documentElement.className = 'js';</script>
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1>Yancen Li</h1>
+				<nav>
+					<a href="https://twitter.com/lee0741">Twitter</a>
+					<a href="https://github.com/lee0741">GitHub</a>
+					<a href="mailto:lee0741@gmail.com">Contact</a>
+				</nav>
+			</header>
+		</main>
+		<script src="/js/anime.min.js"></script>
+		<script src="/js/main.js"></script>
+		<script>
+		(function() {
+			var lineMaker = new LineMaker({
+					parent: { element: document.body, position: 'append' },
+					position: 'fixed',
+					lines: [
+						{top: 0, left: '0', width: '20vw', height: '100vh', color: '#F85659', hidden: false, animation: { duration: 1000, easing: 'easeInOutCirc', delay: 0, direction: 'TopBottom' }},
+						{top: 0, left: '20vw', width: '20vw', height: '100vh', color: '#fff', hidden: false, animation: { duration: 1000, easing: 'easeInOutCirc', delay: 150, direction: 'BottomTop' }},
+						{top: 0, left: '40vw', width: '20vw', height: '100vh', color: '#F85659', hidden: false, animation: { duration: 1000, easing: 'easeInOutCirc', delay: 300, direction: 'TopBottom' }},
+						{top: 0, left: '60vw', width: '20vw', height: '100vh', color: '#fff', hidden: false, animation: { duration: 1000, easing: 'easeInOutCirc', delay: 450, direction: 'BottomTop' }},
+						{top: 0, left: '80vw', width: '20vw', height: '100vh', color: '#F85659', hidden: false, animation: { duration: 1000, easing: 'easeInOutCirc', delay: 600, direction: 'TopBottom' }}
+					]
+			});
+			
+			setTimeout(function() {
+				lineMaker.animateLinesOut();
+			}, 500);
+		})();
+		</script>
+	</body>
+</html>
